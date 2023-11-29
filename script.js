@@ -1,5 +1,6 @@
 //your JS code here. If required.
 const input = document.querySelectorAll(".code");
+input[0].focus();
 for(let i = 0; i < input.length; i++){
 	input[i].addEventListener('keyup', onFocus);
 }
