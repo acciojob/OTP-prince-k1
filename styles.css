@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.code-container{
+  display: flex;
+  gap: 10px;
+}
+
+input{
+height: 100px;
+width: 50px;
+font-size: 80px;
+text-align: center;
+border: 0.2px solid #F0F0F0;
+}
